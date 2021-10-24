@@ -30,7 +30,7 @@ function DetallePorHero({detalles}) {
                 </div>
 
             </div>
-            <NavLink to={'/alkemy_react/'} className={'m-3 btn btn-dark fs-1 neon'} style={{width: "40%"}}>Volver a tu equipo</NavLink>
+            <NavLink to={'/alkemy_react/team'} className={'m-3 btn btn-dark fs-1 neon'} style={{width: "40%"}}>Volver a tu equipo</NavLink>
         </div>
     );
 }

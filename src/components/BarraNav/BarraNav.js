@@ -15,8 +15,8 @@ function BarraNav() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <NavLink className="nav-link submenu" aria-current="page" to={'/alkemy_react/team'}>Buscador</NavLink>
-                        <NavLink className="nav-link  submenu" to={'/alkemy_react'}>Equipo</NavLink>
+                        <NavLink className="nav-link submenu" aria-current="page" to={'/alkemy_react/'}>Buscador</NavLink>
+                        <NavLink className="nav-link  submenu" to={'/alkemy_react/team'}>Equipo</NavLink>
                     </div>
                 </div>
             </div>

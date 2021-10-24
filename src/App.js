@@ -21,8 +21,8 @@ function App() {
                 <Router>
                     <BarraNav/>
                     <Switch>
-                        <Route path={'/alkemy_react/team'} exact component={Buscador}/>
-                        <Route path={'/alkemy_react/'} exact component={TeamContainer}/>
+                        <Route path={'/alkemy_react/'} exact component={Buscador}/>
+                        <Route path={'/alkemy_react/team'} exact component={TeamContainer}/>
                         <Route path={'/alkemy_react/login'} exact component={Login}/>
                         <Route path={'/alkemy_react/detalles/:id'} exact component={DetallePorHeroContainer}/>
                     </Switch>

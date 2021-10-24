@@ -25,7 +25,7 @@ function PopUp(props) {
 
                 </Modal.Body>
                 <Modal.Footer>
-                    <NavLink onClick={props.onHide} to={'/team'} className={'btn btn-warning'}>Buscar heroes</NavLink>
+                    <NavLink onClick={props.onHide} to={'/alkemy_react/team'} className={'btn btn-warning'}>Buscar heroes</NavLink>
                 </Modal.Footer>
             </Modal>
 

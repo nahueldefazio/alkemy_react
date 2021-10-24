@@ -31,9 +31,20 @@ function Team(props) {
     if (equipoUno.length > 0) {
         return (
             <div>
-                <h1 className={'text-center neon fs-1'}>Tu equipo</h1>
-                <h1 className={'neon fs-2 text-center'}>El equipo se caracteriza por tener predominancia en el
-                    superpoder: {props.bestStat}</h1>
+                <h1 className={'text-center neon fs-1'}>Equipo</h1>
+                <div  className={'d-flex justify-content-center'}>
+                    <h1 className={'neon fs-2 text-center'}>El equipo se caracteriza por tener predominancia en el
+                        superpoder: </h1>
+                    {props.bestStat === "intelligence" && <h1 className={'neon-team-intel mx-3'}> Inteligencia</h1>}
+                    {props.bestStat === "strength" && <h1 className={'neon-team-fuerza mx-3'}> Fuerza</h1>}
+                    {props.bestStat === "speed" && <h1 className={'neon-team-velocidad mx-3'}> Velocidad</h1>}
+                    {props.bestStat === "power" && <h1 className={'neon-team-poder mx-3'}> Poder</h1>}
+                    {props.bestStat === "durability" && <h1 className={'neon-team-dura mx-3'}> Durabilidad</h1>}
+                    {props.bestStat === "combat" && <h1 className={'neon-team-combat mx-3'}> Combate</h1>}
+                </div>
+
+
+
                 <h1 className={'neon fs-2'}>Numero de superheroes: {equipoUno.length}</h1>
                 <div className={'row justify-content-center m-5 '}>
                     {isNaN(props.intelligence) &&
@@ -100,7 +111,7 @@ function Team(props) {
                                     <button className={'btn btn-danger m-3'}
                                             onClick={() => eliminarHero(item)}> ELIMINAR
                                     </button>
-                                    <NavLink className={'btn btn-info m-3'} to={`/detalles/${item.id}`}>Mostrar
+                                    <NavLink className={'btn btn-info m-3'} to={`/alkemy_react/detalles/${item.id}`}>Mostrar
                                         Detalles
                                     </NavLink>
                                 </div>

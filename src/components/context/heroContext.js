@@ -85,7 +85,7 @@ export const ProviderHero = ({children}) => {
         if (!localStorage.getItem("token")) {
             console.log("xdd")
             return (
-                <Redirect to={'/login'}/>
+                <Redirect to={'/alkemy_react/login'}/>
             )
         }
     }

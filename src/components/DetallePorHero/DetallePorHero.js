@@ -1,13 +1,14 @@
 import React from 'react';
 import "./DetallePorHero.css"
+import {NavLink} from "react-router-dom";
 
 function DetallePorHero({detalles}) {
 
     console.log(detalles)
 
     return (
-        <div>
-            <div className="card mt-5 detalles-container" >
+        <div className={'d-flex align-items-center flex-column'}>
+            <div className="card mt-5 detalles-container " >
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={detalles.image.url} className="img-fluid rounded-start rounded-circle" alt="..."/>
@@ -27,7 +28,9 @@ function DetallePorHero({detalles}) {
                         </div>
                     </div>
                 </div>
+
             </div>
+            <NavLink to={'/alkemy_react/'} className={'m-3 btn btn-dark fs-1 neon'} style={{width: "40%"}}>Volver a tu equipo</NavLink>
         </div>
     );
 }

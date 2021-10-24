@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from "axios";
-import {Formik, Field, Form} from 'formik';
+import {Formik} from 'formik';
 import * as Yup from "yup";
 import "./Login.css"
 import FormularioLogIn from "../FormularioLogIn/FormularioLogIn";
@@ -11,11 +11,11 @@ function Login() {
     const url = "http://challenge-react.alkemy.org/"
 
     async function logUser(values) {
-        console.log(values)
+
         let payload = {email: values.email, password: values.password};
         await axios.post(url, payload).then(res => {
             let data = res.data;
-            console.log(data)
+
             localStorage.setItem("token", data.token)
             swal("A wild Pikachu appeared! What do you want to do?", {
                 title: "Correcto",
@@ -28,10 +28,10 @@ function Login() {
                 .then((value) => {
                     switch (value) {
                         case "continuar":
-                            window.location.replace("/")
+                            window.location.replace("/alkemy_react/")
                             break;
                         default:
-                            window.location.replace("/")
+                            window.location.replace("/alkemy_react/")
                     }
                 });
 

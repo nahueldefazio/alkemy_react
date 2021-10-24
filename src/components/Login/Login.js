@@ -11,11 +11,11 @@ function Login() {
     const url = "http://challenge-react.alkemy.org/"
 
     async function logUser(values) {
+        console.log(values)
 
         let payload = {email: values.email, password: values.password};
         await axios.post(url, payload).then(res => {
             let data = res.data;
-
             localStorage.setItem("token", data.token)
             swal("A wild Pikachu appeared! What do you want to do?", {
                 title: "Correcto",

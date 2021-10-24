@@ -1,0 +1,135 @@
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.neon-team-intel{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #007BFF;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgba(0, 123, 255, .7),
+                0 0 40px rgba(0, 123, 255, .7),
+                0 0 100px rgba(0, 123, 255, .7);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgba(0, 123, 255, .7),
+                0 0 20px rgba(0, 123, 255, .7),
+                0 0 60px rgba(0, 123, 255, .7);
+    }
+}
+
+.neon-team-fuerza{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #ff0000;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgb(255, 0, 0),
+                0 0 40px rgb(255, 0, 0),
+                0 0 100px rgb(255, 0, 0);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgb(255, 0, 0),
+                0 0 20px rgb(255, 0, 0),
+                0 0 60px rgb(255, 0, 0);
+    }
+}
+
+.neon-team-velocidad{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #ffdf00;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgb(255, 223, 0),
+                0 0 40px rgb(255, 223, 0),
+                0 0 100px rgb(255, 223, 0);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgb(255, 223, 0),
+                0 0 20px rgb(255, 223, 0),
+                0 0 60px rgb(255, 223, 0);
+    }
+}
+
+.neon-team-poder{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #ff9400;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgb(255, 148, 0),
+                0 0 40px rgb(255, 148, 0),
+                0 0 100px rgb(255, 148, 0);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgb(255, 148, 0),
+                0 0 20px rgb(255, 148, 0),
+                0 0 60px rgb(255, 148, 0);
+    }
+}
+
+.neon-team-dura{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #00ff03;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgb(0, 255, 3),
+                0 0 40px rgb(0, 255, 3),
+                0 0 100px rgb(0, 255, 3);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgb(0, 255, 3),
+                0 0 20px rgb(0, 255, 3),
+                0 0 60px rgb(0, 255, 3);
+    }
+}
+
+.neon-team-combat{
+
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #644416;
+    font-family: Bahnschrift, serif;
+}
+@keyframes neon-team-intelAnim {
+    from {
+        text-shadow:
+                0 0 10px rgb(100, 68, 22),
+                0 0 40px rgb(100, 68, 22),
+                0 0 100px rgb(100, 68, 22);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgb(100, 68, 22),
+                0 0 20px rgb(100, 68, 22),
+                0 0 60px rgb(100, 68, 22);
+    }
+}
+
+.fondo-team{
+    background: url("https://images4.alphacoders.com/111/1114149.jpg") ;
+}

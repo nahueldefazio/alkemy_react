@@ -1,0 +1,27 @@
+.heros-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.neon {
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #E0E5EB;
+    font-family: Bahnschrift, serif;
+    font-size: 72px;
+}
+@keyframes neonAnim {
+    from {
+        text-shadow:
+                0 0 10px rgba(224, 229, 235, .7),
+                0 0 40px rgba(224, 229, 235, .7),
+                0 0 100px rgba(224, 229, 235, .7);
+    }
+    to {
+        text-shadow:
+                0 0 5px rgba(224, 229, 235, .7),
+                0 0 20px rgba(224, 229, 235, .7),
+                0 0 60px rgba(224, 229, 235, .7);
+    }
+}

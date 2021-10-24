@@ -1,0 +1,8 @@
+.detalles-container{
+    width: 70%;
+    margin: auto;
+    border: #A12568 2px solid !important;
+    background-color: #2A0944 !important;
+    color: #FEC260;
+    border-radius: 20px ;
+}

@@ -1,0 +1,10 @@
+.modal-header{
+    flex-direction: column;
+}
+.modal-title{
+    font-size: 40px;
+}
+
+.image-style{
+    width: 32%
+}

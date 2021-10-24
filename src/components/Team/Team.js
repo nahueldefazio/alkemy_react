@@ -32,7 +32,7 @@ function Team(props) {
         return (
             <div>
                 <h1 className={'text-center neon fs-1'}>Equipo</h1>
-                <div  className={'d-flex justify-content-center'}>
+                <div  className={'d-flex justify-content-center align-items-center m-3'}>
                     <h1 className={'neon fs-2 text-center'}>El equipo se caracteriza por tener predominancia en el
                         superpoder: </h1>
                     {props.bestStat === "intelligence" && <h1 className={'neon-team-intel mx-3'}> Inteligencia</h1>}

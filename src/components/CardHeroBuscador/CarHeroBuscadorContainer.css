@@ -9,7 +9,7 @@
     animation: neonAnim 2s alternate-reverse infinite;
     color: #E0E5EB;
     font-family: Bahnschrift, serif;
-    font-size: 72px;
+    font-size: 60px;
 }
 @keyframes neonAnim {
     from {

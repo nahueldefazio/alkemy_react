@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alkemy_react/static/css/main.d9f81b5f.chunk.css",
-    "main.js": "/alkemy_react/static/js/main.e0dd76b9.chunk.js",
-    "main.js.map": "/alkemy_react/static/js/main.e0dd76b9.chunk.js.map",
+    "main.css": "/alkemy_react/static/css/main.149dad17.chunk.css",
+    "main.js": "/alkemy_react/static/js/main.5c975dc9.chunk.js",
+    "main.js.map": "/alkemy_react/static/js/main.5c975dc9.chunk.js.map",
     "runtime-main.js": "/alkemy_react/static/js/runtime-main.b711c894.js",
     "runtime-main.js.map": "/alkemy_react/static/js/runtime-main.b711c894.js.map",
     "static/css/2.b0ce55e0.chunk.css": "/alkemy_react/static/css/2.b0ce55e0.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.bb6917e3.chunk.js.map": "/alkemy_react/static/js/3.bb6917e3.chunk.js.map",
     "index.html": "/alkemy_react/index.html",
     "static/css/2.b0ce55e0.chunk.css.map": "/alkemy_react/static/css/2.b0ce55e0.chunk.css.map",
-    "static/css/main.d9f81b5f.chunk.css.map": "/alkemy_react/static/css/main.d9f81b5f.chunk.css.map",
+    "static/css/main.149dad17.chunk.css.map": "/alkemy_react/static/css/main.149dad17.chunk.css.map",
     "static/js/2.c1889552.chunk.js.LICENSE.txt": "/alkemy_react/static/js/2.c1889552.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b711c894.js",
     "static/css/2.b0ce55e0.chunk.css",
     "static/js/2.c1889552.chunk.js",
-    "static/css/main.d9f81b5f.chunk.css",
-    "static/js/main.e0dd76b9.chunk.js"
+    "static/css/main.149dad17.chunk.css",
+    "static/js/main.5c975dc9.chunk.js"
   ]
 }

@@ -11,7 +11,6 @@ function Login() {
     const url = "http://challenge-react.alkemy.org/"
 
     async function logUser(values) {
-        console.log(values)
 
         let payload = {email: values.email, password: values.password};
         await axios.post(url, payload).then(res => {
@@ -28,10 +27,10 @@ function Login() {
                 .then((value) => {
                     switch (value) {
                         case "continuar":
-                            window.location.replace("/alkemy_react/")
+                            window.location.replace("/alkemy_react/team")
                             break;
                         default:
-                            window.location.replace("/alkemy_react/")
+                            window.location.replace("/alkemy_react/team")
                     }
                 });
 

@@ -17,7 +17,7 @@ function PopUp(props) {
             >
                 <Modal.Header>
                     <Modal.Title id="contained-modal-title-vcenter" className={'d-flex align-items-center flex-column'}>
-                        <img src={'https://storage.googleapis.com/diariodemocracia/cache/50/1c/3aa5ff58dd4511e9a6e742010a8e0003.jpg'} className={'image-style '}/>
+                        <img src={'https://storage.googleapis.com/diariodemocracia/cache/50/1c/3aa5ff58dd4511e9a6e742010a8e0003.jpg'} className={'image-style '} alt={'Heroes'}/>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className={'d-flex'}>

@@ -3,7 +3,7 @@ import heroContext from "../context/heroContext";
 import Team from "./Team";
 
 
-function TeamContainer(props) {
+function TeamContainer() {
     const {
         getBestStat,
         bestStat,

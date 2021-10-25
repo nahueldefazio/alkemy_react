@@ -14,7 +14,6 @@ function CardHeroBuscador(props) {
     }
 
     function mostrarAlerta(alerta) {
-        console.log(alerta)
         if (alerta === "good") {
             swal({
                 position: 'top-end',
@@ -104,11 +103,12 @@ function CardHeroBuscador(props) {
 
 
     return (
-        cosasArr.map(item => {
+        cosasArr.map((item, index) => {
             return (
-                <div className={'card-container col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-12 m-3'}>
+                <div className={'card-container col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-12 m-3'} key={index}>
                     <h1 className={'text-center'}>{props.detalles[item].name} - {props.detalles[item].biography.alignment}</h1>
-                    <img src={props.detalles[item].image.url} alt={props.detalles[item].name} style={{width: "200px", height: "260px"}}/>
+                    <img src={props.detalles[item].image.url} alt={props.detalles[item].name}
+                         style={{width: "200px", height: "260px"}}/>
                     <button className={"btn btn-light m-2"} onClick={() => agregarHero(props.detalles[item])}> Agregar
                     </button>
                 </div>

@@ -33,7 +33,7 @@ function CardHeroBuscadorContainer(props) {
         return (
             <div className={'d-flex align-items-center flex-column m-5'}>
                 <img src={'https://c.tenor.com/orJlgrtRxR4AAAAd/superheroes.gif'} className={'rounded-circle'}
-                     style={{width: "30%"}}/>
+                     style={{width: "30%"}} alt={"Gif heroes"}/>
             </div>
 
         )

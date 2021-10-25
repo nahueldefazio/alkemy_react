@@ -15,7 +15,7 @@ function DetallePorHeroContainer() {
         axios.get(baseURL).then(r => {
             setHero(r.data)
         })
-    }, [id])
+    }, [baseURL, id])
 
 
     if (hero.response === "success") {
@@ -27,7 +27,7 @@ function DetallePorHeroContainer() {
     } else {
         return (
             <div className={'d-flex align-items-center flex-column m-5'}>
-                <img src={'https://media1.giphy.com/media/hSvIJlprJ8Ji/giphy.gif'}/>
+                <img src={'https://media1.giphy.com/media/hSvIJlprJ8Ji/giphy.gif'} alt={"Gif loading"}/>
                 <h1 className={'neon fs-1'}>...Cargando</h1>
             </div>
 

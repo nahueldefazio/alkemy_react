@@ -37,7 +37,7 @@ function Buscador(props) {
                     >
                         {
                             (props) => {
-                                console.log(props)
+
                                 return (
                                     <Form className={'d-flex w-100 flex-column'}>
                                         <Field type="text"  className="form-control" placeholder="Ingresa el nombre del superheroe"

@@ -26,6 +26,7 @@ export const ProviderHero = ({children}) => {
         if (!stat && !state_name) {
             return
         }
+        // eslint-disable-next-line array-callback-return
         equipoUno.map(item => {
             stat.push(Number(item.powerstats[`${state_name}`]))
         })
@@ -54,9 +55,11 @@ export const ProviderHero = ({children}) => {
     }
 
     function getAvgHeightWeight(height, weight) {
+        // eslint-disable-next-line array-callback-return
         equipoUno.map(item => {
             height.push(Number(item.appearance.height[1].slice(0, -2)))
         })
+        // eslint-disable-next-line array-callback-return
         equipoUno.map(item => {
             weight.push(Number(item.appearance.weight[1].slice(0, -2)))
         })

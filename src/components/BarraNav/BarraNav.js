@@ -7,7 +7,7 @@ function BarraNav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark navbar-color">
             <div className="container-fluid">
-                <NavLink className="navbar-brand" to={'/alkemy_react'}>Alkemy Challenge</NavLink>
+                <NavLink className="navbar-brand" to={'/alkemy_react/team'}>Alkemy Challenge</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">

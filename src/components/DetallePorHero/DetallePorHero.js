@@ -4,8 +4,6 @@ import {NavLink} from "react-router-dom";
 
 function DetallePorHero({detalles}) {
 
-    console.log(detalles)
-
     return (
         <div className={'d-flex align-items-center flex-column'}>
             <div className="card mt-5 detalles-container " >

@@ -100,14 +100,14 @@ function Team(props) {
                 <h3 className={'neon fs-3 text-center'}>Promedio Peso: {calcularAltura(props.weigth)} KG</h3>
                 <div className={'team-container'}>
                     {
-                        equipoUno.map(item => {
+                        equipoUno.map((item, index) => {
                             equipoArray.push(item)
                             return (
                                 <div
                                     className={'d-flex flex-column align-items-center border border-4 m-2 rounded justify-content-around card-container'}
-                                    style={{width: "280px", height: "470px"}}>
+                                    style={{width: "280px", height: "470px"}} key={index}>
                                     <h1 className={'text-center'}>{item.name}</h1>
-                                    <img src={item.image.url} style={{width: "150px", height: "170px"}}/>
+                                    <img src={item.image.url} style={{width: "150px", height: "170px"}} alt={item.name}/>
                                     <button className={'btn btn-danger m-3'}
                                             onClick={() => eliminarHero(item)}> ELIMINAR
                                     </button>
